@@ -4,6 +4,17 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>toolsharp</PackageId> 
+    <Version>1.0.0</Version>
+    <Authors>Kauê Moraes and Alfredo Neto</Authors>
+    <Company>Kauê Moraes</Company>
+    <Description>Pacote com extensões e padrões para produtividade com C#.</Description>
+    <PackageTags>toolsharp;extensions</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Kauem0raes/toolsharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
