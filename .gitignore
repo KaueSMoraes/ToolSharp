@@ -1,22 +1,79 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+## Build
+bin/
+obj/
+out/
+[Ll]og/
+*.log
+
+## VS Code / Rider
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
+.idea/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio
+.vs/
+*.psess
+*.vsp
+*.vspx
+*.sdf
+*.cache
+*.pdb
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## dotnet artifacts
+*.dll
+*.exe
 *.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+*.so
+*.dylib
+*.runtimeconfig.json
+*.deps.json
+*.csproj.user
+
+## Publish
+publish/
+*.Publish.xml
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Others
+*.db
+*.sqlite
+*.bak
+*.tmp
+*.swp
+
+## macOS
+.DS_Store
+
+## Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Rider
+.idea/
+
+## JetBrains
+*.DotSettings.user
