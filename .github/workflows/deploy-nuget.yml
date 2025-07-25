@@ -22,10 +22,10 @@ jobs:
         run: ls -la
 
       - name: Restore dependências
-        run: dotnet restore ToolSharpSolution.sln
+        run: dotnet restore toolsharpSolution.sln
 
       - name: Build projeto
-        run: dotnet build ToolSharpSolution.sln --configuration Release --no-restore
+        run: dotnet build toolsharpSolution.sln --configuration Release --no-restore
 
       - name: Empacotar NuGet
         run: dotnet pack ToolSharp/ToolSharp.csproj --configuration Release --no-build --output ./nupkg
