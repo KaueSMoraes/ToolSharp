@@ -1,7 +1,7 @@
 namespace Core.Records;
 
 /// <summary>
-/// Represents the outcome of an operation, capturing success state, value, and exception details.
+/// Represents the outcome of an operation, capturing success state, value, and exception details
 /// </summary>
 /// <typeparam name="T">The type of the value returned on success.</typeparam>
 public readonly record struct Result<T>(bool IsSuccess, T? Value, Exception? Error)
