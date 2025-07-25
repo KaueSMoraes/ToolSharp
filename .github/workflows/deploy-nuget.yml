@@ -18,6 +18,9 @@ jobs:
         with:
           dotnet-version: '9.0.x'
 
+      - name: Verificar estrutura
+        run: ls -la
+
       - name: Restore dependências
         run: dotnet restore ToolSharpSolution.sln
 
