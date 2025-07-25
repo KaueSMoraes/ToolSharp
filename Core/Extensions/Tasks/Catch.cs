@@ -27,6 +27,7 @@ public static partial class TaskExtensions
             throw new ArgumentNullException(nameof(task));
         if (onError is null)
             throw new ArgumentNullException(nameof(onError));
+            
         try
         {
             return await task.ConfigureAwait(false);
