@@ -29,29 +29,20 @@ jobs:
       - name: Build solution
         run: dotnet build --configuration Release --no-restore
 
-      - name: Create test result directory
-        run: mkdir -p _TMP
-
-      - name: Run unit tests and capture result
-        id: tests
+      - name: Run unit tests and save results
         run: |
+          mkdir -p _TMP
           dotnet test Tests/Tests.csproj \
             --configuration Release \
             --no-build \
             --logger "trx;LogFileName=test-results.trx" \
             --results-directory _TMP
-        continue-on-error: true
 
-      - name: Publish test report
-        uses: zyborg/dotnet-tests-report@v1
+      - name: Publish test report to PR
+        uses: dorny/test-reporter@v1
+        if: always() 
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          project_path: .
-          report_name: toolsharp-tests
-          report_title: ToolSharp - Test Results
-
-      - name: Fail workflow if tests failed
-        if: steps.tests.outcome == 'failure'
-        run: |
-          echo "❌ Some tests failed. Failing the workflow."
-          exit 1
+          name: Tests Report
+          path: _TMP/test-results.trx
+          reporter: dotnet-trx
+          fail-on-error: true
