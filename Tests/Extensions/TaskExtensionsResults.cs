@@ -1,7 +1,7 @@
-using ToolSharp.Extensions;
-using TaskExtensions = ToolSharp.Extensions.TaskExtensions;
+using Core.Extensions;
+using TaskExtensions = Core.Extensions.TaskExtensions;
 
-namespace toolsharpTests.Extensions;
+namespace Tests.Extensions;
 
 public class TaskExtensionsTests
 {
