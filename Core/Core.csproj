@@ -7,7 +7,7 @@
 
     <PackageId>ToolSharp</PackageId>
     <Version>1.0.1</Version>
-    <Authors>Kauê Moraes; Alfredo Neto</Authors> 
+    <Authors>Kauê Moraes; Alfredo Neto</Authors>
     <Company>Kauê Moraes</Company>
     <Description>Pacote com extensões e padrões para produtividade com C#.</Description>
     <PackageTags>ToolSharp;extensions</PackageTags>
@@ -20,7 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="logo.png" Pack="true" PackagePath="" />
+    <None Include="logo.png" Pack="true" PackagePath="logo.png" />
   </ItemGroup>
 
 </Project>
