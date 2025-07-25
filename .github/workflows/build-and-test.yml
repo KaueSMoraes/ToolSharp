@@ -29,6 +29,9 @@ jobs:
       - name: Build solution
         run: dotnet build --configuration Release --no-restore
 
+      - name: Create test result directory
+        run: mkdir -p _TMP
+
       - name: Run unit tests and capture result
         id: tests
         run: |
@@ -36,14 +39,14 @@ jobs:
             --configuration Release \
             --no-build \
             --logger "trx;LogFileName=test-results.trx" \
-            --results-directory Tests/TestResults
+            --results-directory _TMP
         continue-on-error: true
 
       - name: Publish test report
         uses: zyborg/dotnet-tests-report@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          project_path: Test
+          project_path: .
           report_name: toolsharp-tests
           report_title: ToolSharp - Test Results
 
