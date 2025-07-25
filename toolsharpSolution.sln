@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolsharp", "toolsharp\toolsharp.csproj", "{70058139-81D1-41ED-9044-9838C018546D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolSharp", "ToolSharp\ToolSharp.csproj", "{70058139-81D1-41ED-9044-9838C018546D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolsharpTests", "toolsharpTests\toolsharpTests.csproj", "{75B04D19-4418-4463-8D0F-064767C2186E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{75B04D19-4418-4463-8D0F-064767C2186E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

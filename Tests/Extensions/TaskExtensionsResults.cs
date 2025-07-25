@@ -1,5 +1,5 @@
-using toolsharp.Extensions;
-using TaskExtensions = toolsharp.Extensions.TaskExtensions;
+using ToolSharp.Extensions;
+using TaskExtensions = ToolSharp.Extensions.TaskExtensions;
 
 namespace toolsharpTests.Extensions;
 

@@ -1,4 +1,4 @@
-﻿namespace toolsharp.Extensions
+﻿namespace ToolSharp.Extensions
 {
     public record Result<T>(bool IsSuccess, T? Value, Exception? Error);
 

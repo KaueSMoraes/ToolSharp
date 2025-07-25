@@ -1,2 +1,2 @@
-# toolsharp
-Repositório de código para armazenar os métodos do toolsharp
+# ToolSharp
+Repositório de código para armazenar os métodos do ToolSharp

@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\toolsharp\toolsharp.csproj" />
+    <ProjectReference Include="..\ToolSharp\ToolSharp.csproj" />
   </ItemGroup>
 
 </Project>

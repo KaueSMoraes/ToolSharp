@@ -5,16 +5,22 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>toolsharp</PackageId> 
+    <PackageId>ToolSharp</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Kauê Moraes and Alfredo Neto</Authors>
+    <Authors>Kauê Moraes; Alfredo Neto</Authors> 
     <Company>Kauê Moraes</Company>
     <Description>Pacote com extensões e padrões para produtividade com C#.</Description>
-    <PackageTags>toolsharp;extensions</PackageTags>
+    <PackageTags>ToolSharp;extensions</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/Kauem0raes/toolsharp</RepositoryUrl>
+    <RepositoryUrl>https://github.com/KaueSMoraes/ToolSharp</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="logo.png" Pack="true" PackagePath="" />
+  </ItemGroup>
 
 </Project>
