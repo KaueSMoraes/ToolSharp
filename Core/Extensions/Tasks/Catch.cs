@@ -55,6 +55,7 @@ public static partial class TaskExtensions
     {
         if (task is null)
             throw new ArgumentNullException(nameof(task));
+            
         if (onError is null)
             throw new ArgumentNullException(nameof(onError));
 
