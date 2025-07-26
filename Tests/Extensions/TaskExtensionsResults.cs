@@ -142,6 +142,36 @@ namespace Tests.Extensions
         }
 
         [Fact]
+        public async Task Then_With_Action_T_SideEffect_Returns_Result()
+        {
+            int value = 0;
+            Task<int> A() => Task.FromResult(42);
+            var result = await A().Then(x => { value = x * 2; }); 
+            Assert.Equal(42, result);
+            Assert.Equal(84, value);
+        }
+
+
+        [Fact]
+        public async Task Then_With_Action_FireAndForget_Returns_Original_Result()
+        {
+            bool called = false;
+            Task<int> A() => Task.FromResult(123);
+            var result = await A().Then(() => called = true);
+            Assert.True(called);
+            Assert.Equal(123, result);
+        }
+
+        [Fact]
+        public async Task Then_Task_Chains_TaskU_Without_Input()
+        {
+            Task A() => Task.CompletedTask;
+            Task<int> B() => Task.FromResult(10);
+            var result = await A().Then(B);
+            Assert.Equal(10, result);
+        }
+
+        [Fact]
         public async Task Ensure_Returns_Result_If_Condition_Passes()
         {
             Task<int> A() => Task.FromResult(10);
