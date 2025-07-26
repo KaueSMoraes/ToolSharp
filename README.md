@@ -85,8 +85,8 @@ var user = await GetUserFromApiAsync(userId)
 ## Documentation
 
 For a complete and detailed list of all available extension methods with usage examples, check out the documentation file:  
-[**Click here to access the Documentation**](.Core/Docs/README.NUGET.md)
+[**Click here to access the Documentation**](./Core/Docs/README.NUGET.md)
 
 ## License
 
-Distributed under the CC BY-NC 4.0 License. See [**LICENSE**](./LICENSE.txt) for more information.
+Distributed under the CC BY-NC 4.0 License. See [**LICENSE**](./Core/LICENSE.txt) for more information.
