@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>ToolSharp</PackageId>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <Authors>Kauê Moraes; Alfredo Neto</Authors>
     <Company>Kauê Moraes</Company>
     <Description>Package with extensions and patterns for productivity with C#.</Description>
@@ -16,7 +16,7 @@
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.NUGET.md</PackageReadmeFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageIcon>logo.png</PackageIcon>
+    <PackageIcon>logo-transparente.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
