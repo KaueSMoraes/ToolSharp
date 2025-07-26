@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>ToolSharp</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>Kauê Moraes; Alfredo Neto</Authors>
     <Company>Kauê Moraes</Company>
     <Description>Package with extensions and patterns for productivity with C#.</Description>
@@ -14,10 +14,15 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/KaueSMoraes/ToolSharp</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>EXTENSIONS.md</PackageReadmeFile> 
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="EXTENSIONS.md" Pack="true" PackagePath="../Docs/EXTENSIONS.md" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="logo.png" Pack="true" PackagePath="logo.png" />
