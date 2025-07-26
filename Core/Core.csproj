@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>ToolSharp</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>Kauê Moraes; Alfredo Neto</Authors>
     <Company>Kauê Moraes</Company>
     <Description>Package with extensions and patterns for productivity with C#.</Description>
