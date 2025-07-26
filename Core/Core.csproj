@@ -6,10 +6,10 @@
     <Nullable>enable</Nullable>
 
     <PackageId>ToolSharp</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Kauê Moraes; Alfredo Neto</Authors>
     <Company>Kauê Moraes</Company>
-    <Description>Pacote com extensões e padrões para produtividade com C#.</Description>
+    <Description>Package with extensions and patterns for productivity with C#.</Description>
     <PackageTags>ToolSharp;extensions</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/KaueSMoraes/ToolSharp</RepositoryUrl>
