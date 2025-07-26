@@ -14,10 +14,15 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/KaueSMoraes/ToolSharp</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>EXTENSIONS.md</PackageReadmeFile> 
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="EXTENSIONS.md" Pack="true" PackagePath="../Docs/EXTENSIONS.md" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="logo.png" Pack="true" PackagePath="logo.png" />
