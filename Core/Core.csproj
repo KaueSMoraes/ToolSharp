@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -14,14 +14,13 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/KaueSMoraes/ToolSharp</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReadmeFile>EXTENSIONS.md</PackageReadmeFile> 
+    <PackageReadmeFile>README.NUGET.md</PackageReadmeFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="EXTENSIONS.md" Pack="true" PackagePath="../Docs/EXTENSIONS.md" />
+    <None Include="README.NUGET.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <ItemGroup>
