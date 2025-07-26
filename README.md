@@ -1,7 +1,7 @@
 
 <div align="center">
 
-  <img src="../ToolSharp/Core/logo-transparente.png" alt="logo" width="200" height="auto" />
+   <img src="Core/logo-transparente.png" alt="logo" width="200" height="auto" />
   <h1 style="border: none; padding-bottom: 0; margin-bottom: 0;">ToolSharp</h1>
   <br>
 
