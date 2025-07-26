@@ -16,7 +16,7 @@
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.NUGET.md</PackageReadmeFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageIcon>logo-transparente.png</PackageIcon>
+    <PackageIcon>logotransparente.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="logo.png" Pack="true" PackagePath="logo.png" />
+    <None Include="logotransparente.png" Pack="true" PackagePath="logotransparente.png" />
   </ItemGroup>
 
 </Project>
