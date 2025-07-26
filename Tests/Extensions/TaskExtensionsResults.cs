@@ -60,6 +60,7 @@ namespace Tests.Extensions
         {
             Task<int> A() => Task.FromResult(3);
             var result = await A().If(x => x > 5, x => x * 2);
+            
             Assert.Equal(3, result);
         }
 

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -6,18 +6,22 @@
     <Nullable>enable</Nullable>
 
     <PackageId>ToolSharp</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
     <Authors>Kauê Moraes; Alfredo Neto</Authors>
     <Company>Kauê Moraes</Company>
-    <Description>Pacote com extensões e padrões para produtividade com C#.</Description>
+    <Description>Package with extensions and patterns for productivity with C#.</Description>
     <PackageTags>ToolSharp;extensions</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/KaueSMoraes/ToolSharp</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.NUGET.md</PackageReadmeFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.NUGET.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="logo.png" Pack="true" PackagePath="logo.png" />
